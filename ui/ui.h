@@ -52,7 +52,7 @@ class MainFrame : public wxFrame
 
 	public:
 
-		MainFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("sb-gui"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 521,305 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );
+		MainFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("sb with wxWidgets"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 521,305 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );
 
 		~MainFrame();
 

@@ -1,6 +1,7 @@
 #include "MyMainFrame.h"
 
 MyMainFrame::MyMainFrame(wxWindow* parent) :MainFrame(parent) {
+	m_staticText1->SetLabel(wxString("ÄãµÄÃû×Ö"));
 }
 
 void MyMainFrame::OnButtonClick(wxCommandEvent& event) {
